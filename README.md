@@ -1,6 +1,6 @@
 # 🚀 B2FLY-API
 
-> Teste pratico
+> Teste prático para com o objetivo de avaliar a capacidade técnica de desenvolvimento de uma API RESTful utilizando o framework Laravel. O desafio consiste em desenvolver uma API RESTful para gerenciar um sistema de tarefas.
 
 ## Instalação
 
@@ -56,7 +56,7 @@ docker-compose exec php php artisan test
 
 A documentação da API pode ser acessada e importada no insomnia através do link abaixo:
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=B2FLY-API&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fedvaldotorres%2Fb2fly-api%2Fmain%2Finsomnia.json)
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=b2fly-api&uri=https%3A%2F%2Fgithub.com%2Fedvaldotorres%2Fb2fly-api%2Fblob%2Fdevelop%2Fdocumets%2FInsomnia_2024-02-02.json)
 
 ## Questões de Conhecimento Geral:
 
