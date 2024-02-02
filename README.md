@@ -1,5 +1,16 @@
 # 🚀 B2FLY-API
 
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/php-^8.1-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/laravel-^10.10-red.svg?cacheSeconds=2592000" />
+  <a href="https://documenter.getpostman.com/view/13040502/UzBjrney#c3212110-5be6-45bd-b000-95c6538746ca" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
+
 > Teste prático com o objetivo de avaliar a capacidade técnica de desenvolvimento de uma API RESTful utilizando o framework Laravel. O desafio consiste em desenvolver uma API RESTful para gerenciar um sistema de tarefas.
 
 ## Instalação
@@ -85,3 +96,11 @@ A documentação da API pode ser acessada e importada no insomnia através do li
 
     - O Laravel trata as migrações de banco de dados através de arquivos de migração, que são arquivos PHP que contêm instruções para a criação, alteração e exclusão de tabelas do banco de dados.
     - As migrações de banco de dados são importantes porque permitem a realização de operações de banco de dados de forma controlada e versionada, ou seja, permitem a criação, alteração e exclusão de tabelas do banco de dados de forma segura e rastreável.
+
+## Autor
+
+👤 **Edvaldo Torres de Souza**
+
+- Website: [edvaldotorres.com.br](https://edvaldotorres.com.br/)
+- Github: [@edvaldotorres](https://github.com/edvaldotorres)
+- LinkedIn: [Edvaldo Torres](https://www.linkedin.com/in/edvaldo-torres-189894150/)
