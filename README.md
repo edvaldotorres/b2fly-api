@@ -1,6 +1,6 @@
 # 🚀 B2FLY-API
 
-> Teste prático para com o objetivo de avaliar a capacidade técnica de desenvolvimento de uma API RESTful utilizando o framework Laravel. O desafio consiste em desenvolver uma API RESTful para gerenciar um sistema de tarefas.
+> Teste prático com o objetivo de avaliar a capacidade técnica de desenvolvimento de uma API RESTful utilizando o framework Laravel. O desafio consiste em desenvolver uma API RESTful para gerenciar um sistema de tarefas.
 
 ## Instalação
 
