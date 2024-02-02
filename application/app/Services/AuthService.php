@@ -7,18 +7,23 @@ use Tymon\JWTAuth\Facades\JWTAuth;
 
 class AuthService
 {
-    public function authenticate(array $credentials)
+    public function authenticate(array $credentials): array
     {
         if (!$token = JWTAuth::attempt($credentials)) {
             return response()->json([
-                'message' => 'Unauthorized',
+                'error' => 'Unauthorized'
             ], Response::HTTP_UNAUTHORIZED);
         }
 
-        return response()->json([
+        return $this->respondWithToken($token);
+    }
+
+    protected function respondWithToken(string $token): array
+    {
+        return [
             'access_token' => $token,
             'token_type' => 'bearer',
             'expires_in' => JWTAuth::factory()->getTTL() * 60
-        ]);
+        ];
     }
 }
