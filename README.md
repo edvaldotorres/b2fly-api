@@ -1,66 +1,37 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🚀 B2FLY-API
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+> Teste pratico
 
-## About Laravel
+## Instalação
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+```sh
+npm install
+```
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Questões de Conhecimento Geral:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+1.  **Explique a arquitetura MVC (Model-View-Controller) e como o Laravel implementa esse padrão**
 
-## Learning Laravel
+    -   O padrão de arquitetura MVC (Model-View-Controller) é um padrão de projeto de software que separa a aplicação em três camadas: Model, View e Controller.
+    -   Model: Responsável por representar a estrutura de dados da aplicação, ou seja, é a camada que representa a lógica de negócio da aplicação.
+    -   View: Responsável por apresentar os dados ao usuário, ou seja, é a camada que representa a interface gráfica da aplicação.
+    -   Controller: Responsável por intermediar a comunicação entre a camada Model e a camada View, ou seja, é a camada que representa a lógica de controle da aplicação.
+    -   O Laravel implementa esse padrão de arquitetura MVC através de diretórios específicos para cada camada, ou seja, o diretório `app/Models` para a camada Model, o diretório `resources/views` para a camada View e o diretório `app/Http/Controllers` para a camada Controller.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+2.  **Descreva as principais características e vantagens do Eloquent ORM no Laravel.**
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+    -   O Eloquent ORM é um ORM (Object-Relational Mapping) que permite a manipulação de dados de um banco de dados relacional através de objetos.
+        -   Principais características:
+            -   Mapeamento de objetos: Permite a representação de tabelas do banco de dados como classes e registros como objetos.
+            -   Relacionamentos: Permite a definição de relacionamentos entre tabelas do banco de dados através de métodos.
+            -   Consultas: Permite a realização de consultas no banco de dados através de métodos.
+            -   Inserção, atualização e exclusão: Permite a realização de operações de inserção, atualização e exclusão no banco de dados através de métodos.
+        -   Vantagens:
+            -   Facilidade de uso: Permite a manipulação de dados de um banco de dados relacional através de objetos, o que facilita a escrita e a leitura do código.
+            -   Produtividade: Permite a realização de operações de banco de dados de forma mais rápida e eficiente, o que aumenta a produtividade do desenvolvedor.
+            -   Segurança: Permite a realização de operações de banco de dados de forma segura, o que evita a ocorrência de falhas de segurança.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+3.  **Como o Laravel trata as migrações de banco de dados e por que são importantes?**
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+    -   O Laravel trata as migrações de banco de dados através de arquivos de migração, que são arquivos PHP que contêm instruções para a criação, alteração e exclusão de tabelas do banco de dados.
+    -   As migrações de banco de dados são importantes porque permitem a realização de operações de banco de dados de forma controlada e versionada, ou seja, permitem a criação, alteração e exclusão de tabelas do banco de dados de forma segura e rastreável.
